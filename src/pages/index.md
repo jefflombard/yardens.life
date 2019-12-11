@@ -1,21 +1,24 @@
 ---
 templateKey: index-page
-title: Yardens
+title: Philly Yardens
 image: /img/home-jumbotron.jpg
-heading: Welcome to Yardens 
+heading: Our Solution
 subheading: Support sustainable farming while enjoying a cup
 mainpitch:
-  title: Why Kaldi
+  title: Why We Exist
   description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+    Between 1989 and 2005, the price of fruits and vegetables in the US
+    increased by 75 percent. Because of this healthy eating is out of reach for
+    many residents.
+
+
+    We can do better.
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  Our solution is the "Philly Yarden". A philly yarden is a yard that is
+  converted into a food producing garden.  Benefits of having a philly yarden: 
+  Easy access to healthy food. Less maintenance than a typical ornamental yard.
+  (No lawn mowing fees, etc.) Join a community of people to trade the food you
+  grow
 intro:
   blurbs:
     - image: /img/coffee.png
@@ -68,3 +71,4 @@ main:
     alt: Coffee beans
     image: /img/products-grid1.jpg
 ---
+
