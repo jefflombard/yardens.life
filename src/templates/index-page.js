@@ -68,9 +68,7 @@ export const IndexPageTemplate = ({
                 </div>
                 <div className="columns">
                   <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/products">
-                      See all products
-                    </Link>
+                  <a class="btn" href="mailto:info@yardens.life" style={{boxShadow:'inset 0 0 0 2px #995da5', color: '#995da5'}}>Contact Us</a>
                   </div>
                 </div>
               </div>
