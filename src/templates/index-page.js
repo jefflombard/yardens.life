@@ -12,6 +12,8 @@ export const IndexPageTemplate = ({
   description,
   question,
   answer,
+  work,
+  workDescription,
   intro
 }) => (
   <div>
@@ -74,6 +76,14 @@ export const IndexPageTemplate = ({
                   </div>
                 </div>
                 <div className="columns">
+                  <div className="column is-12 ">
+                  <h3 className="has-text-weight-semibold is-size-2">
+                      {work}
+                    </h3>
+                    <p> {workDescription}</p>
+                  </div>
+                </div>
+                <div className="columns">
                   <div className="column is-12 has-text-centered">
                     <a
                       class="btn"
@@ -124,6 +134,8 @@ const IndexPage = ({ data }) => {
         description={frontmatter.description}
         question={frontmatter.question}
         answer={frontmatter.answer}
+        work={frontmatter.work}
+        workDescription={frontmatter.workDescription}
         intro={frontmatter.intro}
       />
     </Layout>
@@ -155,6 +167,8 @@ export const pageQuery = graphql`
         heading
         question
         answer
+        work
+        workDescription
         mainpitch {
           title
           description
