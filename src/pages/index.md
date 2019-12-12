@@ -4,6 +4,7 @@ title: Philly Yardens
 image: /img/home-jumbotron.jpg
 heading: Our Solution
 subheading: Support sustainable farming while enjoying a cup
+question: How do I get a Philly Yarden?
 mainpitch:
   title: Why We Exist
   description: >
