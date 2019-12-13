@@ -18,102 +18,107 @@ export const IndexPageTemplate = ({
   intro,
   content,
   contentComponent
-}) => { const PageContent = contentComponent || Content
+}) => { 
+  const PageContent = contentComponent || Content
 
   return(
-  <div>
-    <PageContent className="content" content={content} />
-    <div
-    // className="full-width-image margin-top-0"
-    // style={{
-    //   backgroundImage: `url(${
-    //     !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-    //   })`,
-    //   backgroundPosition: `top left`,
-    //   backgroundAttachment: `fixed`,
-    // }}
-    >
-      <div
-        style={{
-          display: "flex",
-          height: "150px",
-          lineHeight: "1",
-          justifyContent: "space-around",
-          alignItems: "left",
-          flexDirection: "column"
-        }}
-      >
-        <h1 className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen">
-          {title} TITLE
-        </h1>
-        {/* <h3 className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen">
-          {subheading} SUBHEADING
-        </h3> */}
-      </div>
-    </div>
-    <section className="section section--gradient">
-      <div className="container">
+  // <div>
+  //   <PageContent className="content" style={{backgroundColor:'red'}} content={content} >PPAGE CONTENT </PageContent>
+  //  test
+  //  <div
+  //       style={{
+  //         display: "flex",
+  //         height: "150px",
+  //         lineHeight: "1",
+  //         justifyContent: "space-around",
+  //         alignItems: "left",
+  //         flexDirection: "column"
+  //       }}
+  //     >
+  //       <h1 className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen">
+  //         {title} TITLE
+  //       </h1>
+  //       {/* <h3 className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen">
+  //         {subheading} SUBHEADING
+  //       </h3> */}
+  //     </div>
+  //   <section className="section section--gradient">
+  //     <div className="container">
+  //       <div className="section">
+  //         <div className="columns">
+  //           <div className="column is-10 is-offset-1">
+  //             <div className="content">
+  //               <div className="content">
+  //                 <div className="tile">
+  //                   <h1 className="title">
+  //                     {mainpitch.title} ***MAINPITCH TITLE***
+  //                   </h1>
+  //                 </div>
+  //                 <div className="tile">
+  //                   <h3 className="subtitle">
+  //                     {mainpitch.description} ***MAINPITCH Description***
+  //                   </h3>
+  //                 </div>
+  //               </div>
+  //               <div className="columns">
+  //                 <div className="column is-12">
+  //                   <h3 className="has-text-weight-semibold is-size-2">
+  //                     {heading} ***Heading***
+  //                   </h3>
+  //                   <p> {description} ***description***</p>
+  //                 </div>
+  //               </div>
+  //               <div className="columns">
+  //                 <div className="column is-12 ">
+  //                   <h3 className="has-text-weight-semibold is-size-2">
+  //                     {question} ***question****
+  //                   </h3>
+  //                   <p> {answer} ***answer****</p>
+  //                 </div>
+  //               </div>
+  //               <div className="columns">
+  //                 <div className="column is-12 ">
+  //                   <h3 className="has-text-weight-semibold is-size-2">
+  //                     {work} ***work****
+  //                   </h3>
+  //                   <p> {workDescription} ***workDescription****</p>
+  //                 </div>
+  //               </div>
+  //               <div className="columns">
+  //                 <div className="column is-12 has-text-centered">
+  //                   <a
+  //                     class="btn"
+  //                     href="mailto:info@yardens.life"
+  //                     style={{
+  //                       boxShadow: "inset 0 0 0 2px #995da5",
+  //                       color: "#995da5"
+  //                     }}
+  //                   >
+  //                     Contact Us
+  //                   </a>
+  //                 </div>
+  //               </div>
+  //             </div>
+  //           </div>
+  //         </div>
+  //       </div>
+  //     </div>
+  //   </section>
+  // </div>
+  <section className="section section--gradient">
+  <div className="container">
+    <div className="columns">
+      <div className="column is-10 is-offset-1">
         <div className="section">
-          <div className="columns">
-            <div className="column is-10 is-offset-1">
-              <div className="content">
-                <div className="content">
-                  <div className="tile">
-                    <h1 className="title">
-                      {mainpitch.title} ***MAINPITCH TITLE***
-                    </h1>
-                  </div>
-                  <div className="tile">
-                    <h3 className="subtitle">
-                      {mainpitch.description} ***MAINPITCH Description***
-                    </h3>
-                  </div>
-                </div>
-                <div className="columns">
-                  <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
-                      {heading} ***Heading***
-                    </h3>
-                    <p> {description} ***description***</p>
-                  </div>
-                </div>
-                <div className="columns">
-                  <div className="column is-12 ">
-                    <h3 className="has-text-weight-semibold is-size-2">
-                      {question} ***question****
-                    </h3>
-                    <p> {answer} ***answer****</p>
-                  </div>
-                </div>
-                <div className="columns">
-                  <div className="column is-12 ">
-                    <h3 className="has-text-weight-semibold is-size-2">
-                      {work} ***work****
-                    </h3>
-                    <p> {workDescription} ***workDescription****</p>
-                  </div>
-                </div>
-                <div className="columns">
-                  <div className="column is-12 has-text-centered">
-                    <a
-                      class="btn"
-                      href="mailto:info@yardens.life"
-                      style={{
-                        boxShadow: "inset 0 0 0 2px #995da5",
-                        color: "#995da5"
-                      }}
-                    >
-                      Contact Us
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
+            {title}
+          </h2>
+          <PageContent className="content" content={content} />
         </div>
       </div>
-    </section>
+    </div>
   </div>
+</section>
 )};
 
 IndexPageTemplate.propTypes = {
@@ -130,22 +135,14 @@ IndexPageTemplate.propTypes = {
 };
 
 const IndexPage = ({ data }) => {
-  const { frontmatter } = data.markdownRemark;
+  const { markdownRemark: post } = data
 
   return (
     <Layout>
       <IndexPageTemplate
-        image={frontmatter.image}
-        title={frontmatter.title}
-        heading={frontmatter.heading}
-        subheading={frontmatter.subheading}
-        mainpitch={frontmatter.mainpitch}
-        description={frontmatter.description}
-        question={frontmatter.question}
-        answer={frontmatter.answer}
-        work={frontmatter.work}
-        workDescription={frontmatter.workDescription}
-        intro={frontmatter.intro}
+        contentComponent={HTMLContent}
+        title={post.frontmatter.title}
+        content={post.html}
       />
     </Layout>
   );
