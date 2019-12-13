@@ -3,19 +3,13 @@ import PropTypes from 'prop-types'
 import { IndexPageTemplate } from '../../templates/index-page'
 
 const IndexPagePreview = ({ entry, getAsset }) => {
-  const data = entry.getIn(['data']).toJS()
+  // const data = entry.getIn(['data']).toJS()
 
   if (data) {
     return (
       <IndexPageTemplate
-        image={data.image}
-        test={data.test}
-        title={data.title}
-        heading={data.heading}
-        subheading={data.subheading}
-        description={data.description}
-        intro={data.intro || { blurbs: [] }}
-        mainpitch={data.mainpitch || {}}
+      title={entry.getIn(['data', 'title'])}
+      content={widgetFor('body')}
       />
     )
   } else {
