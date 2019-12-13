@@ -119,8 +119,7 @@ IndexPageTemplate.propTypes = {
   question:PropTypes.string,
   intro: PropTypes.shape({
     blurbs: PropTypes.array
-  })
-  title: PropTypes.string.isRequired,
+  }),
   content: PropTypes.string,
   contentComponent: PropTypes.func,
 };
@@ -160,51 +159,43 @@ export default IndexPage;
 export const pageQuery = graphql`
 
 
-query IndexPage($id: String!) {
-  markdownRemark(id: { eq: $id }) {
-    html
+query IndexPageTemplate {
+  markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
     frontmatter {
       title
+      image {
+        childImageSharp {
+          fluid(maxWidth: 2048, quality: 100) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      heading
+      question
+      answer
+      work
+      workDescription
+      mainpitch {
+        title
+        description
+      }
+      description
+      intro {
+        blurbs {
+          image {
+            childImageSharp {
+              fluid(maxWidth: 240, quality: 64) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+          text
+        }
+        heading
+        description
+      }
     }
   }
-}
-`;
-  // query IndexPageTemplate {
-  //   markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
-  //     frontmatter {
-  //       title
-  //       image {
-  //         childImageSharp {
-  //           fluid(maxWidth: 2048, quality: 100) {
-  //             ...GatsbyImageSharpFluid
-  //           }
-  //         }
-  //       }
-  //       heading
-  //       question
-  //       answer
-  //       work
-  //       workDescription
-  //       mainpitch {
-  //         title
-  //         description
-  //       }
-  //       description
-  //       intro {
-  //         blurbs {
-  //           image {
-  //             childImageSharp {
-  //               fluid(maxWidth: 240, quality: 64) {
-  //                 ...GatsbyImageSharpFluid
-  //               }
-  //             }
-  //           }
-  //           text
-  //         }
-  //         heading
-  //         description
-  //       }
-  //     }
-  //   }
-  // }
+}`;
+  
 
