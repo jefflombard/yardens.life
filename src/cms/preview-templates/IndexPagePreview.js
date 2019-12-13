@@ -1,20 +1,19 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { IndexPageTemplate } from '../../templates/index-page'
+import { AboutPageTemplate } from '../../templates/about-page'
 
 const IndexPagePreview = ({ entry, widgetFor }) => {
-  const data = entry.getIn(['data']).toJS()
 
-  if (data) {
+
     return (
-      <IndexPageTemplate
+      <AboutPageTemplate
       title={entry.getIn(['data', 'title'])}
       content={widgetFor('body')}
       />
     )
-  } else {
-    return <div>Loading...</div>
-  }
+  // } else {
+  //   return <div>Loading...</div>
+  // }
 }
 
 IndexPagePreview.propTypes = {
