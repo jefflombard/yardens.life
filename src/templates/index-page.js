@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { Link, graphql } from "gatsby";
 import Layout from "../components/Layout";
+import Content, { HTMLContent } from "../components/Content";
 
 export const IndexPageTemplate = ({
   image,
@@ -14,9 +15,14 @@ export const IndexPageTemplate = ({
   answer,
   work,
   workDescription,
-  intro
-}) => (
+  intro,
+  content,
+  contentComponent
+}) => { const PageContent = contentComponent || Content
+
+  return(
   <div>
+    <PageContent className="content" content={content} />
     <div
     // className="full-width-image margin-top-0"
     // style={{
@@ -38,11 +44,11 @@ export const IndexPageTemplate = ({
         }}
       >
         <h1 className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen">
-          {title}
+          {title} TITLE
         </h1>
-        <h3 className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen">
-          {subheading}
-        </h3>
+        {/* <h3 className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen">
+          {subheading} SUBHEADING
+        </h3> */}
       </div>
     </div>
     <section className="section section--gradient">
@@ -53,34 +59,38 @@ export const IndexPageTemplate = ({
               <div className="content">
                 <div className="content">
                   <div className="tile">
-                    <h1 className="title">{mainpitch.title}</h1>
+                    <h1 className="title">
+                      {mainpitch.title} ***MAINPITCH TITLE***
+                    </h1>
                   </div>
                   <div className="tile">
-                    <h3 className="subtitle">{mainpitch.description}</h3>
+                    <h3 className="subtitle">
+                      {mainpitch.description} ***MAINPITCH Description***
+                    </h3>
                   </div>
                 </div>
                 <div className="columns">
                   <div className="column is-12">
                     <h3 className="has-text-weight-semibold is-size-2">
-                      {heading}
+                      {heading} ***Heading***
                     </h3>
-                    <p> {description}</p>
-                  </div>
-                </div>
-                 <div className="columns">
-                  <div className="column is-12 ">
-                  <h3 className="has-text-weight-semibold is-size-2">
-                      {question}
-                    </h3>
-                    <p> {answer}</p>
+                    <p> {description} ***description***</p>
                   </div>
                 </div>
                 <div className="columns">
                   <div className="column is-12 ">
-                  <h3 className="has-text-weight-semibold is-size-2">
-                      {work}
+                    <h3 className="has-text-weight-semibold is-size-2">
+                      {question} ***question****
                     </h3>
-                    <p> {workDescription}</p>
+                    <p> {answer} ***answer****</p>
+                  </div>
+                </div>
+                <div className="columns">
+                  <div className="column is-12 ">
+                    <h3 className="has-text-weight-semibold is-size-2">
+                      {work} ***work****
+                    </h3>
+                    <p> {workDescription} ***workDescription****</p>
                   </div>
                 </div>
                 <div className="columns">
@@ -97,7 +107,6 @@ export const IndexPageTemplate = ({
                     </a>
                   </div>
                 </div>
-               
               </div>
             </div>
           </div>
@@ -105,7 +114,7 @@ export const IndexPageTemplate = ({
       </div>
     </section>
   </div>
-);
+)};
 
 IndexPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
@@ -114,7 +123,7 @@ IndexPageTemplate.propTypes = {
   subheading: PropTypes.string,
   mainpitch: PropTypes.object,
   description: PropTypes.string,
-  question:PropTypes.string,
+  question: PropTypes.string,
   intro: PropTypes.shape({
     blurbs: PropTypes.array
   })
