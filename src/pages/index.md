@@ -11,7 +11,7 @@ work: Work With Us
 workDescription: Do you like our mission? We want to hear from you and work with you. You can contact us or subscribe to our mailing list to keep up to date.
 
 mainpitch:
-  title: Why We Exist
+  title: Why 
   description: >
     Between 1989 and 2005, the price of fruits and vegetables in the US
     increased by 75 percent. Because of this healthy eating is out of reach for
