@@ -1,6 +1,6 @@
 ---
 templateKey: about-page
-title: ' '
+title: 'About Us '
 ---
 ### The Purpose
 
