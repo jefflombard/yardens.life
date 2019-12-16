@@ -3,7 +3,9 @@ import PropTypes from 'prop-types'
 import { IndexPageTemplate } from '../../templates/index-page'
 
 const IndexPagePreview = ({ entry, widgetFor }) => {
-    return (
+  console.log(entry)
+  
+  return (
       <IndexPageTemplate
       title={entry.getIn(['data', 'title'])}
       content={widgetFor('body')}
