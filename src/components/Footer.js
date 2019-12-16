@@ -6,6 +6,8 @@ import facebook from "../img/social/facebook.svg";
 import instagram from "../img/social/instagram.svg";
 import twitter from "../img/social/twitter.svg";
 
+import Button from "../components/Button";
+
 const Footer = class extends React.Component {
   render() {
     return (
@@ -17,7 +19,10 @@ const Footer = class extends React.Component {
             style={{ width: "14em", height: "10em" }}
           />
         </div>
-        <div className="content has-text-centered has-text-white-ter" style={{backgroundColor: 'rgb(147, 95, 165)'}}>
+        <div
+          className="content has-text-centered has-text-white-ter"
+          style={{ backgroundColor: "rgb(147, 95, 165)" }}
+        >
           <div className="container has-text-white-ter">
             <div className="columns">
               <div className="column is-4">
@@ -96,6 +101,13 @@ const Footer = class extends React.Component {
                     style={{ width: "1em", height: "1em" }}
                   />
                 </a>
+                <div className="column is-12 column__contact">
+                  <Button
+                    href="mailto:info@yardens.life"
+                    text="Contact Us"
+                    style={{ color: "white" }}
+                  />
+                </div>
               </div>
             </div>
           </div>
