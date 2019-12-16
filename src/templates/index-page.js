@@ -6,7 +6,6 @@ import Content, { HTMLContent } from "../components/Content";
 
 export const IndexPageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content;
-{console.log(content)}
   return (
     <section className="section section--gradient">
       <div className="container">
@@ -33,7 +32,8 @@ IndexPageTemplate.propTypes = {
 
 const IndexPage = ({ data }) => {
   const { markdownRemark: post } = data;
-  console.log(data)
+  // console.log(data)
+  // THIS IS WHAT IS NOTBEING LOADED
   return (
     <Layout>
       <IndexPageTemplate
