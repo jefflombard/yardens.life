@@ -5,6 +5,7 @@ import Navbar from '../components/Navbar'
 import './all.sass'
 import useSiteMetadata from './SiteMetadata'
 import { withPrefix } from 'gatsby'
+import favicon from "../img/phillyyardens_Favicon.ico"
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata()
@@ -22,14 +23,12 @@ const TemplateWrapper = ({ children }) => {
         />
         <link
           rel="icon"
-          type="image/png"
-          href={`${withPrefix('/')}img/favicon-32x32.png`}
+          href={favicon}
           sizes="32x32"
-        />
-        <link
+        /> 
+         <link
           rel="icon"
-          type="image/png"
-          href={`${withPrefix('/')}img/favicon-16x16.png`}
+          href={favicon}
           sizes="16x16"
         />
 
