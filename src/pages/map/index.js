@@ -1,20 +1,20 @@
-import React from 'react'
-import { kebabCase } from 'lodash'
-import Helmet from 'react-helmet'
-import { Link, graphql } from 'gatsby'
-import Layout from '../../components/Layout'
+// import React from 'react'
+// import { kebabCase } from 'lodash'
+// import Helmet from 'react-helmet'
+// import { Link, graphql } from 'gatsby'
+// import Layout from '../../components/Layout'
 
-const MapPage = () => (
-  <Layout>
-    <section className="section">
-      <div className="container content">
-       THIS IS THE MAP
-      </div>
-    </section>
-  </Layout>
-)
+// const MapPage = () => (
+//   <Layout>
+//     <section className="section">
+//       <div className="container content">
+//        THIS IS THE MAP
+//       </div>
+//     </section>
+//   </Layout>
+// )
 
-export default MapPage
+// export default MapPage
 
 // export const tagPageQuery = graphql`
 //   query TagsQuery {
