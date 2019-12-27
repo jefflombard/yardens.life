@@ -6,8 +6,6 @@ import facebook from "../img/social/facebook.svg";
 import instagram from "../img/social/instagram.svg";
 import twitter from "../img/social/twitter.svg";
 
-import Button from "../components/Button";
-
 const Footer = class extends React.Component {
   render() {
     return (
@@ -64,6 +62,7 @@ const Footer = class extends React.Component {
                 <a
                   title="facebook"
                   href="https://www.facebook.com/phillyyardens/"
+                  target="_blank"
                 >
                   <img
                     src={facebook}
@@ -71,7 +70,11 @@ const Footer = class extends React.Component {
                     style={{ width: "1em", height: "1em" }}
                   />
                 </a>
-                <a title="twitter" href="https://twitter.com/phillyYardens/">
+                <a
+                  title="twitter"
+                  href="https://twitter.com/phillyYardens/"
+                  target="_blank"
+                >
                   <img
                     className="fas fa-lg"
                     src={twitter}
@@ -82,6 +85,7 @@ const Footer = class extends React.Component {
                 <a
                   title="instagram"
                   href="https://www.instagram.com/phillyYardens/"
+                  target="_blank"
                 >
                   <img
                     src={instagram}
@@ -90,11 +94,12 @@ const Footer = class extends React.Component {
                   />
                 </a>
                 <div className="column is-12 column__contact">
-                  <Button
-                    href="mailto:info@yardens.life"
-                    text="Contact Us"
-                    style={{ color: "white" }}
-                  />
+                  <a
+                    href="mailto:chrisflounders@gmail.com"
+                    style={{ color: "black", padding:"10px" }}
+                  >
+                    Contact
+                  </a>
                 </div>
               </div>
             </div>
