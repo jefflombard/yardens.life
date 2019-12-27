@@ -54,18 +54,41 @@ export default class Index extends React.Component {
           <div className="container">
             <div className="content">
               <div className="columns">
-                <div className="column is-4">
+                <div className="column is-4 contact__div">
                   <h1 className="contact__header">Join Us</h1>
-                  Join Us
+                  <a
+                    href="mailto:info@yardens.life"
+                  >
+                    <img
+                      src={Strawberry}
+                      alt="Facebook"
+                      style={{ width: "10em", height: "10em" }}
+                    />
+                  </a>
                 </div>
-                <div
-                  className="column is-4"
-                  style={{ backgroundImage: { Strawberry } }}
-                >
+                <div className="column is-4 contact__div">
                   <h1 className="contact__header">Request a Yarden</h1>
+                  <a
+                    href="mailto:info@yardens.life"
+                  >
+                    <img
+                      src={Strawberry}
+                      alt="Facebook"
+                      style={{ width: "10em", height: "10em" }}
+                    />
+                  </a>
                 </div>
-                <div className="column is-4">
+                <div className="column is-4 contact__div">
                   <h1 className="contact__header">Contact</h1>
+                  <a
+                    href="mailto:chrisflounders@gmail.com"
+                  >
+                    <img
+                      src={Strawberry}
+                      alt="Facebook"
+                      style={{ width: "10em", height: "10em" }}
+                    />
+                  </a>
                 </div>
               </div>
             </div>
