@@ -1,6 +1,7 @@
 import React from "react";
 import { navigate } from "gatsby-link";
 import Layout from "../../components/Layout";
+import Strawberry from "../../img/PhillyYardens_FullColor_Mark_Strawberry.jpg";
 
 function encode(data) {
   return Object.keys(data)
@@ -36,12 +37,7 @@ export default class Index extends React.Component {
   render() {
     return (
       <Layout>
-        <div
-          className="full-width-image-container margin-top-0"
-          style={{
-            backgroundImage: `url('/img/blog-index.jpg')`
-          }}
-        >
+        <div className="full-width-image-container margin-top-0 contact__landingBackground">
           <h1
             className="has-text-weight-bold is-size-1"
             style={{
@@ -57,16 +53,19 @@ export default class Index extends React.Component {
         <section className="section">
           <div className="container">
             <div className="content">
-              <div className="columns columns__centered">
+              <div className="columns">
                 <div className="column is-4">
-                  <h1>Join Us</h1>
+                  <h1 className="contact__header">Join Us</h1>
                   Join Us
                 </div>
-                <div className="column is-4">
-                  <h1>Request a Yarden</h1>
+                <div
+                  className="column is-4"
+                  style={{ backgroundImage: { Strawberry } }}
+                >
+                  <h1 className="contact__header">Request a Yarden</h1>
                 </div>
                 <div className="column is-4">
-                  <h1>Contact</h1>
+                  <h1 className="contact__header">Contact</h1>
                 </div>
               </div>
             </div>

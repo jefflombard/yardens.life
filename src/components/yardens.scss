@@ -8,11 +8,19 @@
 }
 
 .column__contact {
-    margin-top: .5em;
+  margin-top: .5em;
 }
 
 .columns__centered {
-margin: auto;
+  margin: auto;
+}
+
+.contact__landingBackground {
+  background-image: url(../img/fabric_of_squares_gray.png);
+}
+
+.contact__header {
+  text-align: center;
 }
 
 
