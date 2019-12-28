@@ -38,10 +38,10 @@ const Footer = class extends React.Component {
                     </li>
                     <li>
                       <a
-                        className="navbar-item"
-                        href="/admin/"
                         target="_blank"
                         rel="noopener noreferrer"
+                        className="navbar-item"
+                        href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=93YNUXV28ANEC&source=url"
                       >
                         Donate
                       </a>
@@ -50,19 +50,14 @@ const Footer = class extends React.Component {
                 </section>
               </div>
               <div className="column is-4">
-                <section>
-                  {/* <li>
-                    <Link className="navbar-item" to="/contact">
-                      Contact
-                    </Link>
-                  </li> */}
-                </section>
+                <section></section>
               </div>
               <div className="column is-4 social">
                 <a
                   title="facebook"
                   href="https://www.facebook.com/phillyyardens/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <img
                     src={facebook}
@@ -74,6 +69,7 @@ const Footer = class extends React.Component {
                   title="twitter"
                   href="https://twitter.com/phillyYardens/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <img
                     className="fas fa-lg"
@@ -86,6 +82,7 @@ const Footer = class extends React.Component {
                   title="instagram"
                   href="https://www.instagram.com/phillyYardens/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <img
                     src={instagram}
@@ -96,7 +93,7 @@ const Footer = class extends React.Component {
                 <div className="column is-12 column__contact">
                   <a
                     href="mailto:chrisflounders@gmail.com"
-                    style={{ color: "black", padding:"10px" }}
+                    style={{ color: "black", padding: "10px" }}
                   >
                     Contact
                   </a>

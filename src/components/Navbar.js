@@ -1,35 +1,35 @@
-import React from 'react'
-import { Link } from 'gatsby'
-import logo from '../img/logoNoText.png'
+import React from "react";
+import { Link } from "gatsby";
+import logo from "../img/logoNoText.png";
 
 const Navbar = class extends React.Component {
   constructor(props) {
-    super(props)
+    super(props);
     this.state = {
       active: false,
-      navBarActiveClass: '',
-    }
+      navBarActiveClass: ""
+    };
   }
 
   toggleHamburger = () => {
     // toggle the active boolean in the state
     this.setState(
       {
-        active: !this.state.active,
+        active: !this.state.active
       },
       // after state has been updated,
       () => {
         // set the class in state for the navbar accordingly
         this.state.active
           ? this.setState({
-              navBarActiveClass: 'is-active',
+              navBarActiveClass: "is-active"
             })
           : this.setState({
-              navBarActiveClass: '',
-            })
+              navBarActiveClass: ""
+            });
       }
-    )
-  }
+    );
+  };
 
   render() {
     return (
@@ -41,7 +41,11 @@ const Navbar = class extends React.Component {
         <div className="container">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Yardens" style={{ width: '88px', maxHeight: 'none' }} />
+              <img
+                src={logo}
+                alt="Yardens"
+                style={{ width: "88px", maxHeight: "none" }}
+              />
             </Link>
             {/* Hamburger menu */}
             <div
@@ -71,12 +75,14 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/contact">
                 Contact
               </Link>
-              <Link className="navbar-item" to="/donate">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                className="navbar-item"
+                href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=93YNUXV28ANEC&source=url"
+              >
                 Donate
-              </Link>
-              {/* <Link className="navbar-item" to="/map">
-                Map
-              </Link> */}
+              </a>
             </div>
             <div className="navbar-end has-text-centered">
               <a
@@ -84,14 +90,13 @@ const Navbar = class extends React.Component {
                 href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
                 target="_blank"
                 rel="noopener noreferrer"
-              >
-              </a>
+              ></a>
             </div>
           </div>
         </div>
       </nav>
-    )
+    );
   }
-}
+};
 
-export default Navbar
+export default Navbar;
