@@ -23,144 +23,18 @@
   text-align: center;
 }
 
-// HTML CSS 
 body {
     margin: 0;
     font-size: 18px;
     font-family: 'Lora', Arial, Helvetica, sans-serif;
   }
   
-//   a {
-//     color:  #995da5;
-//   }
   
   h1, h2, h3 {
     font-family: 'Amatic SC', cursive;
     font-size: 48px;
   }
-  
-//   section h2 {
-//     font-size: 30px;
-//   }
-  
-//   section {
-//     padding: 0 20px;
-//   }
-  
-//   .intro__logo {
-//     width: 100vw;
-//   }
-  
-//   .intro__text {
-//     margin: 0;
-//     font-size: 16px;
-//     text-align: center;
-//   }
-  
-//   nav.intro__text {
-//     margin-top: 20px;
-//   }
-  
-//   strong {
-//     font-weight: bold;
-//   }
-  
-//   .cta {
-//     margin: auto;
-//     font-size: 36px;
-//     font-family: 'Amatic SC', cursive;
-//     justify-content: center;
-//     align-items: center;
-//     display: flex;
-//     width: 300px;
-//     height: 50px;
-//     padding: 10px;
-//     border-radius: 3px;
-//     color: white;
-//     text-decoration: none;
-//     background: #995da5;
-//   }
-  
-//   .bio__link {
-//     color: black;
-//     text-decoration: none;
-//   }
-  
-//   @media(min-width: 600px){
-//     .intro {
-//       display: flex;
-//       flex-direction: column;
-//       align-items: center;
-//     }
-//     .intro__logo {
-//       width: 400px;
-//     }
-  
-//     h1, h2, h3 {
-//       font-family: 'Amatic SC', cursive;
-//       font-size: 48px;
-//       margin: 60px 0 20px;
-//     }
-  
-//     section {
-//       margin: auto;
-//       max-width: 1080px;
-//     }
-  
-//     .cta {
-//       margin-top: 40px;
-//     }
-//   }
-  
-  
-//   /* Bullet Point Start */
-//   .list__ourSolution {
-//     list-style-type: none;
-//     padding-left: 20px;
-//   }
-  
-//   .list__ourSolution li {
-//     position: relative;
-//     padding-left: 45px;
-//     margin-bottom: 10px;
-//   }
-  
-//   .list__ourSolution li:before {
-//     content: '';
-//     display: inline-block;
-//     height: 30px;
-//     width: 30px;
-//     position: absolute;
-//     background-size: contain;
-//     background-position: center;
-//     background-repeat: no-repeat;
-//     left: 0;
-//     top: 50%;
-//     transform: translateY(-50%);
-//   }
-//   /* Bullet Point End */
-  
-//   /* Social Media Icons Start */
-  
-//   .socialMedia {
-//     display: flex;
-//     flex-flow: row;
-//     justify-content: center;
-//   }
-  
-//   .socialMedia__button {
-//     margin: 0 15px;
-//     font-size: 45px;
-//   }
-  
-//   /* Paypal */
-  
-//   .payPalBtn__Cnt {
-//     display: flex;
-//     flex-flow: row;
-//     justify-content: center;
-//   }
-  
-//   .cta__donate {
-//     margin-top: 25px;
-//   }
+
+  .social {
+  margin: auto;
+}
