@@ -12,11 +12,14 @@ We can do better.
 
 Our solution is the "Philly Yarden". A philly yarden is a yard that is converted into a food producing garden.
 
-* Benefits of having a philly yarden:
-* Easy access to healthy food.
-* Less maintenance than a typical ornamental yard. (No lawn mowing fees, etc.)
-
-Join a community of people to trade the food you grow
+Benefits of having a philly yarden:
+<div>
+    <ul class="solution__list">
+        <li class="solution__bullet">Easy access to healthy food.</li> 
+        <li class="solution__bullet">Less maintenance than a typical ornamental yard. (No lawn mowing fees, etc.)</li>
+        <li class="solution__bullet">Join a community of people to trade the food you grow</li>
+    </ul> 
+</div>
 
 ### How do I get a Philly Yarden?
 

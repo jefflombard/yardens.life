@@ -39,7 +39,32 @@ body {
   margin: auto;
 }
 
-
 .page__heading {
   padding-bottom: 45px;
+}
+
+.solution__list {
+  list-style: none!important;
+  margin-left: 0!important;
+}
+
+.solution__list li {
+  position: relative;
+  padding-left: 45px;
+  margin-bottom: 10px;
+}
+
+.solution__list li:before {
+  content: '';
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  background-image: url(../img/phillyyardens_Favicon.ico)  ;
+  position: absolute;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
 }
