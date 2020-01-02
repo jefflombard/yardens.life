@@ -43,6 +43,7 @@ body {
   padding-bottom: 45px;
 }
 
+// Bullet points changed to strawberry
 .solution__list {
   list-style: none!important;
   margin-left: 0!important;
@@ -67,4 +68,11 @@ body {
   left: 0;
   top: 50%;
   transform: translateY(-50%);
+}
+
+// About images
+.about__image {
+  width: 200px;
+  object-fit: cover;
+  margin-bottom: 1em;
 }
