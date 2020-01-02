@@ -65,7 +65,7 @@ Oversees the day-to-day operations of a community-operated radio station and its
 **Alexis Buss**
 
 <div class="about__image">
-    <img src="../img/alexis.png" "alexis" >
+    <img src="../img/alexis.png" alt="alexis" >
 </div>
 
 Alexis Buss is an avid gardener, tree planter, and forager. She is a co-founder of the volunteer-run neighborhood bookstore, Bindlestiff Books. She also serves as Members Services Coordinator for a non-profit land trust in West Philadelphia.
@@ -92,4 +92,4 @@ Ford is a Delco native who currently lives in West Philadelphia’s Cedar Park n
 
 **Nakia Maples**
 
-****
+- - -
