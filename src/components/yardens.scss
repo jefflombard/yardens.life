@@ -71,8 +71,13 @@ body {
 }
 
 // About images
-.about__image {
+.about .gatsby-resp-image-image, .about .gatsby-resp-image-link {
+  height: 300px;
   width: 200px;
   object-fit: cover;
   margin-bottom: 1em;
+}
+
+.about .gatsby-resp-image-wrapper, .about .gatsby-resp-image-image, .about .gatsby-resp-image-link {
+  margin: 0 !important;
 }

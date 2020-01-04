@@ -16,7 +16,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
               <h1 className=" has-text-weight-bold is-bold-light page__heading">
                 {title}
               </h1>
-              <PageContent className="content" content={content} />
+              <PageContent className="content about" content={content} />
             </div>
           </div>
         </div>
