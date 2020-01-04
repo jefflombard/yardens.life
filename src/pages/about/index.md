@@ -16,9 +16,7 @@ In the current phase, front yard conversion services will be available in West P
 
 **Christopher Flounders**
 
-<div class="about__image">
-    <img src="/img/chris.png" alt="chris" >
-</div>
+![](/img/chris.png)
 
 Chris grew up in Havertown, PA (Delaware County) and moved to West Philadelphia in 2009. A lifelong gardener, Chris has a passion for all things permaculture. He believes a key pathway to economic security for all is through food production. Short and sweet, he believes ‘less grass yards, more food-productive Philly Yardens.’
 
