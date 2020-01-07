@@ -92,7 +92,7 @@ const Footer = class extends React.Component {
                 </a>
                 <div className="column is-12 column__contact">
                   <a
-                    href="mailto:chrisflounders@gmail.com"
+                    href="mailto:info@yardens.life"
                     style={{ color: "black", padding: "10px" }}
                   >
                     Contact
