@@ -81,7 +81,7 @@ export default class Index extends React.Component {
                 <div className="column is-4 contact__div">
                   <h1 className="contact__header">Contact</h1>
                   <a
-                    href="mailto:chrisflounders@gmail.com"
+                    href="mailto:info@yardens.life"
                   >
                     <img
                       src={Strawberry}
