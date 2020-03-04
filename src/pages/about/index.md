@@ -66,7 +66,7 @@ Lou Ballezzi is an attorney in private practice, focusing primarily on M&A, star
 
 ![](/img/ford.png)
 
-Ford is a Delco native who currently lives in West Philadelphia’s Cedar Park neighborhood. A healthy garden, much like a healthy community, requires careful attention to what was there before; what is there now; and what will be there in the future. I hope to see the seeds that grow today’s Yardens become the seeds that grow tomorrows communities. Life’s a Yarden, Dig it.
+Ford is a Delco native who currently lives in West Philadelphia’s Cedar Park neighborhood. Life’s a Yarden, Dig it.
 
 **Tom McCusker**
 
