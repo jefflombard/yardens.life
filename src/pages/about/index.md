@@ -64,7 +64,7 @@ Lou Ballezzi is an attorney in private practice, focusing primarily on M&A, star
 
 **Ford Coacher**
 
-![](/img/ford.png)
+![](/img/img_6052-copy.jpg)
 
 Ford is a Delco native who currently lives in West Philadelphia’s Cedar Park neighborhood. Life’s a Yarden, Dig it.
 
