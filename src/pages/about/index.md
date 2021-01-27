@@ -52,6 +52,10 @@ Lou Ballezzi is an attorney in private practice, focusing primarily on M&A, star
 
 **Marlene Bell**
 
+![](/img/marlene_board-pic.jpg)
+
+Marlene is a small business owner and DJ in Philadelphia. She knows how to read a crowd, and will work off the energy of your guests to give you an unforgettable night.  She’s performed at nightclubs, lounges, proms, school dances, weddings, fashion shows, block parties, sweet sixteens, and  corporate venues like Salesforce, Nordstrom, Sephora, Neimans, Urban Outfitters Corporate Office and Jimmy Choo just to name a few. A dedicated vegan, Marlene constantly shares high quality content on social media and brings much needed social media prowess to the team. 
+
 **Tom McCusker**
 
 **Nakia Maples**
