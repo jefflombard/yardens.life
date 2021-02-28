@@ -55,9 +55,9 @@ export default class Index extends React.Component {
             <div className="content">
               <div className="columns">
                 <div className="column is-4 contact__div">
-                  <h1 className="contact__header">Join Us</h1>
+                  <h1 className="contact__header">Join Mailing List</h1>
                   <a
-                    href="mailto:info@yardens.life"
+                    href="https://mailchi.mp/26485216ac31/sign-up-for-the-mailing-list"
                   >
                     <img
                       src={Strawberry}
@@ -67,9 +67,9 @@ export default class Index extends React.Component {
                   </a>
                 </div>
                 <div className="column is-4 contact__div">
-                  <h1 className="contact__header">Request a Yarden</h1>
+                  <h1 className="contact__header">Volunteer</h1>
                   <a
-                    href="mailto:info@yardens.life"
+                    href="https://mailchi.mp/667fdaf74bf4/0nwhzfo1cm"
                   >
                     <img
                       src={Strawberry}
