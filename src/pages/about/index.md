@@ -2,6 +2,8 @@
 templateKey: about-page
 title: 'About Us '
 ---
+
+
 ### The Purpose
 
 Philly Yardens Association is a 501(c)(3) nonprofit entity with a three-fold mission: increase access to healthy food, build community around food security and gardening, and rebuild urban soils. We live our mission by converting residential grass yards and ornamental spaces to beautiful food-productive gardens that support the urban ecosystem. Our services are rendered on a 'Pay-What-You-Can' sliding scale to ensure that all members of the community can participate.
@@ -38,6 +40,12 @@ Garrison Hines is a 23 year old resident of North Philadelphia. As a Farm Assist
 
 Kacey grew up in Lancaster County, Pennsylvania, before moving to Philadelphia for college. She studied industrial design and graduated with a B.S. from Philadelphia University. She is currently working as a graphic designer at Anthropologie. Living in an urban area helped her to develop a green thumb and a small house plant obsession. Now, that obsession is spreading outdoors as well. Kacey lived in the East Falls, Germantown, and West Philadelphia neighborhoods of Philadelphia before settling in Drexel Hill. There, she tends to her quaint vegetable garden and small (but hopefully growing) collection of fruit trees. Her favorite fruit is a lemon due to its usefulness in all types of cooking and baking, but especially for its ability to take any dessert to the next level. The thing Kacey is most excited about with Philly Yardens is its mission to transform the city while providing delicious food, strengthening communities, and hopefully helping some bees (and other pollinators) along the way.
 
+**Nakia Maples**
+
+![](/img/nakia.jpeg)
+
+Nakia Maples is 'The Philly Plant Guy' and founder of [Hearticulture Apparel](https://phillyplantguy.store/). Nakia is a houseplant enthusiast and designer of epic indoor garden spaces. His own setup features over 200 plants! Nakia is an active social media content creator, hosting informational YouTube videos and running a Facebook group called Philly Plant Guy (with over 4,300 members).
+
 **Alexis Buss**
 
 ![](/img/alexis.png)
@@ -58,4 +66,6 @@ Marlene is a small business owner and DJ in Philadelphia. She knows how to read 
 
 **Tom McCusker**
 
-**Nakia Maples**
+![](/img/tom-mccusker.jpg)
+
+Tom McCusker founded neighborhood favorite, Honest Toms's Plant Based Tacos, in West Philly. Tom is borderline 'fruitarian,' a perfect fit for an entity that strives to plant fruit everywhere! Tom recently sold Honest Tom's and purchased a farm to start growing and selling hemp, fruit, veggies, and nuts.
