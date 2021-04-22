@@ -2,15 +2,11 @@
 templateKey: about-page
 title: 'About Us '
 ---
-
-
 ### The Purpose
 
 Philly Yardens Association is a 501(c)(3) nonprofit entity with a three-fold mission: increase access to healthy food, build community around food security and gardening, and rebuild urban soils. We live our mission by converting residential grass yards and ornamental spaces to beautiful food-productive gardens that support the urban ecosystem. Our services are rendered on a 'Pay-What-You-Can' sliding scale to ensure that all members of the community can participate.
 
 ### The Plan
-
-Our services will be rolled out and optimized in phases. We'll start by offering front yard conversion and ongoing maintenance services. We'll then offer back yard conversion services. Finally, we plan to develop sustainable, food-productive raised beds (for folks with concrete front and back yards) and plant-based soil remediation systems.
 
 In the current phase, front yard conversion services will be available in West and Southwest Philadelphia only. If you're interested in installing a Philly Yarden and you reside in our operating zone, please drop us a line below (be sure to include your address)! If you're not in our operating zone, please join our mailing list and we'll let you know when we're ready for you!
 
@@ -20,7 +16,7 @@ In the current phase, front yard conversion services will be available in West a
 
 ![](/img/chris.png)
 
-Chris grew up in Havertown, PA (Delaware County) and moved to West Philadelphia in 2009. A lifelong gardener, Chris has a passion for all things permaculture. He believes a key pathway to economic security for all is through food production. Short and sweet, he believes ‘less grass yards, more food-productive Philly Yardens.’
+Chris grew up in Havertown, PA (Delaware County) and moved to West Philadelphia in 2009. Chris is a lifelong gardener. He loves plants, is thankful for all they offer, and is conscious of the need to steward their environment in a responsible manner. He believes a key pathway to economic security for all is through food production. Short and sweet, he believes ‘less grass yards, more food-productive Philly Yardens.’
 
 **Albert Merkin**
 
