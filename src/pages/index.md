@@ -8,22 +8,14 @@ Between 1989 and 2005, the price of fruits and vegetables in the US increased by
 
 We can do better.
 
-### Our Solution
+### Our Solutions
 
 Our solution is the Philly Yarden, a system of carefully chosen plants that provide food/medicine for the community while supporting the urban ecosystem. At the moment, we offer two varieties:
 
-1. The In-Ground Philly Yarden: an existing yard is replaced with the chosen plant system, which is planted directly into the native soil. This solution works best for folks who have a sizeable yard (at least 50 sq ft) and for sites with soil suitable for food growth. The conversion process takes upwards of 1 year (to analyze, design, and install). 
+1. The In-Ground Philly Yarden: an existing yard is replaced with the chosen plant system, which is planted directly into the native soil. This solution works best for folks who have a sizeable yard (at least 50 sq ft) and for sites with soil suitable for food growth**\***. The conversion process takes upwards of 1 year (to analyze, design, and install). 
 2. The Container Philly Yarden: the chosen plant system is planted in a Container with new soil. This solution works best for folks who are unable to use an In-Ground Philly Yarden (or for folks who are waiting for one). The installation process is much quicker, generally requiring only about a month. We generally work with block captains or other neighborhood leaders to install Containers in bulk on a given street. 
 
-Benefits of having a Philly Yarden:
-
-<div>
-    <ul class="solution__list">
-        <li class="solution__bullet">Easy access to healthy food.</li> 
-        <li class="solution__bullet">Less maintenance and lower cost than a typical ornamental yard. </li>
-        <li class="solution__bullet">Join a community of people to trade the food you grow and share interests</li>
-    </ul> 
-</div>
+**\***We understand the risk that soil contaminants (particularly heavy metals) pose to the health of our community. As such, we are also in the early phases of developing a soil remediation program that uses plant systems to eliminate contaminants. We will likely not be able to offer these services until at least 2024, but please contact us if you have knowledge in this area and would like to get involved! 
 
 ### How do I get a Philly Yarden?
 
